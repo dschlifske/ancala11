@@ -10,6 +10,7 @@ import {
   getOverrideProps,
   getOverridesFromVariants,
   mergeVariantsAndOverrides,
+  useNavigateAction,
 } from "@aws-amplify/ui-react/internal";
 import { Button, Flex, Image, Text } from "@aws-amplify/ui-react";
 export default function HeroLayout1(props) {
@@ -54,6 +55,10 @@ export default function HeroLayout1(props) {
     getOverridesFromVariants(variants, props),
     overridesProp || {}
   );
+  const buttonOnClick = useNavigateAction({
+    type: "url",
+    url: "https://master.d9tjbwapov1ny.amplifyapp.com/",
+  });
   return (
     <Flex
       gap="0"
@@ -110,7 +115,7 @@ export default function HeroLayout1(props) {
             position="relative"
             padding="0px 0px 0px 0px"
             whiteSpace="pre-wrap"
-            children="LOREM IPSUM"
+            children="Ancala Health"
             {...getOverrideProps(overrides, "LOREM IPSUM")}
           ></Text>
           <Flex
@@ -141,7 +146,7 @@ export default function HeroLayout1(props) {
               position="relative"
               padding="0px 0px 0px 0px"
               whiteSpace="pre-wrap"
-              children="Ut enim ad minim veniam quis nostrud"
+              children="Helping you unlock the power of your medical imaging data "
               {...getOverrideProps(
                 overrides,
                 "Ut enim ad minim veniam quis nostrud"
@@ -164,7 +169,7 @@ export default function HeroLayout1(props) {
               position="relative"
               padding="0px 0px 0px 0px"
               whiteSpace="pre-wrap"
-              children="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco."
+              children="Medical images are one of the richest sources of information about your health. They should be easy to store, and should follow you across providers and across your health journey."
               {...getOverrideProps(
                 overrides,
                 "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco."
@@ -183,7 +188,10 @@ export default function HeroLayout1(props) {
             size="large"
             isDisabled={false}
             variation="primary"
-            children="Primary Button"
+            children="Get Started"
+            onClick={() => {
+              buttonOnClick();
+            }}
             {...getOverrideProps(overrides, "Button")}
           ></Button>
         </Flex>
@@ -209,7 +217,7 @@ export default function HeroLayout1(props) {
           basis="500px"
           position="relative"
           padding="0px 0px 0px 0px"
-          src="HeroLayout1.image"
+          src="https://images.unsplash.com/photo-1616012480717-fd9867059ca0?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1025&q=80"
           {...getOverrideProps(overrides, "image")}
         ></Image>
       </Flex>

@@ -2,7 +2,9 @@ import React from 'react';
 import logo from './logo.svg';
 import './App.css';
 import { 
-  HeroLayout3,
+  NavBar,
+  HeroLayout1,
+  Features2x2,
   MarketingFooter 
 } from './ui-components';
 
@@ -10,7 +12,12 @@ function App() {
   return (
     <div className="App">
       <header className="App-header">
-        <HeroLayout3 />
+        <NavBar />
+        <p />
+        <HeroLayout1 />
+        <p />
+        <Features2x2 />
+        <p />
         <MarketingFooter />
       </header>
     </div>
