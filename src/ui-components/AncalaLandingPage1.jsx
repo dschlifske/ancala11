@@ -4613,7 +4613,7 @@ export default function AncalaLandingPage1(props) {
           left="22px"
           padding="0px 0px 0px 0px"
           whiteSpace="pre-wrap"
-          children="All Rights Reserved By Mirage 2020"
+          children="Ancala Health 2022"
           {...getOverrideProps(overrides, "All Rights Reserved By Mirage 2020")}
         ></Text>
         <View
