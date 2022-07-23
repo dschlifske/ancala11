@@ -5,7 +5,7 @@
  **************************************************************************/
 
 export { default as FAQItem } from "./FAQItem";
-export { default as EditProfile } from "./EditProfile";
+export { default as AddImageSeries } from "./AddImageSeries";
 export { default as SideBar } from "./SideBar";
 export { default as Rectangle1167 } from "./Rectangle1167";
 export { default as ProductCard } from "./ProductCard";
@@ -20,7 +20,7 @@ export { default as HeroLayout1 } from "./HeroLayout1";
 export { default as ProfileCard } from "./ProfileCard";
 export { default as CommentCard } from "./CommentCard";
 export { default as ReviewCard } from "./ReviewCard";
-export { default as StandardCard } from "./StandardCard";
+export { default as Study } from "./Study";
 export { default as HeroLayout4 } from "./HeroLayout4";
 export { default as Features4x1 } from "./Features4x1";
 export { default as HeroLayout2 } from "./HeroLayout2";

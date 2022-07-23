@@ -348,15 +348,6 @@ export default function AncalaLandingPage1(props) {
             padding="0px 0px 0px 0px"
             {...getOverrideProps(overrides, "Sub header")}
           >
-            <View
-              width="36px"
-              height="3px"
-              shrink="0"
-              position="relative"
-              padding="0px 0px 0px 0px"
-              backgroundColor="rgba(247,140,182,1)"
-              {...getOverrideProps(overrides, "Rectangle 11")}
-            ></View>
             <Text
               fontFamily="Inter"
               fontSize="28px"
@@ -387,7 +378,7 @@ export default function AncalaLandingPage1(props) {
           {...getOverrideProps(overrides, "Nav Bar")}
         >
           <Text
-            fontFamily="Circular Std"
+            fontFamily="Inter"
             fontSize="20px"
             fontWeight="500"
             color="rgba(86,89,122,1)"
@@ -405,7 +396,7 @@ export default function AncalaLandingPage1(props) {
             {...getOverrideProps(overrides, "Home")}
           ></Text>
           <Text
-            fontFamily="Circular Std"
+            fontFamily="Inter"
             fontSize="20px"
             fontWeight="500"
             color="rgba(170,170,171,1)"
@@ -423,7 +414,7 @@ export default function AncalaLandingPage1(props) {
             {...getOverrideProps(overrides, "About31763433")}
           ></Text>
           <Text
-            fontFamily="Circular Std"
+            fontFamily="Inter"
             fontSize="20px"
             fontWeight="500"
             color="rgba(170,170,171,1)"
@@ -441,7 +432,7 @@ export default function AncalaLandingPage1(props) {
             {...getOverrideProps(overrides, "Product")}
           ></Text>
           <Text
-            fontFamily="Circular Std"
+            fontFamily="Inter"
             fontSize="20px"
             fontWeight="500"
             color="rgba(170,170,171,1)"
@@ -604,7 +595,7 @@ export default function AncalaLandingPage1(props) {
             {...getOverrideProps(overrides, "LEarn More")}
           >
             <Text
-              fontFamily="Circular Std"
+              fontFamily="Inter"
               fontSize="20px"
               fontWeight="500"
               color="rgba(255,255,255,1)"
@@ -709,16 +700,6 @@ export default function AncalaLandingPage1(props) {
               children="Scheduling"
               {...getOverrideProps(overrides, "Scheduling")}
             ></Text>
-            <View
-              width="50px"
-              height="50px"
-              position="absolute"
-              top="53px"
-              left="110px"
-              overflow="hidden"
-              padding="0px 0px 0px 0px"
-              {...getOverrideProps(overrides, "3d-design 1")}
-            ></View>
             <Text
               fontFamily="Inter"
               fontSize="16px"
@@ -898,232 +879,6 @@ export default function AncalaLandingPage1(props) {
               children="Clinic Selection"
               {...getOverrideProps(overrides, "Clinic Selection")}
             ></Text>
-            <View
-              width="43px"
-              height="43px"
-              position="absolute"
-              top="56px"
-              left="114px"
-              overflow="hidden"
-              padding="0px 0px 0px 0px"
-              {...getOverrideProps(overrides, "3d 1")}
-            >
-              <View
-                padding="0px 0px 0px 0px"
-                position="absolute"
-                top="0%"
-                bottom="82.23%"
-                left="0.01%"
-                right="82.41%"
-                {...getOverrideProps(overrides, "Group31763481")}
-              >
-                <View
-                  padding="0px 0px 0px 0px"
-                  position="absolute"
-                  top="0%"
-                  bottom="0%"
-                  left="0%"
-                  right="0%"
-                  {...getOverrideProps(overrides, "Group31763482")}
-                >
-                  <Icon
-                    width="7.556396484375px"
-                    height="7.640625px"
-                    viewBox={{
-                      minX: 0,
-                      minY: 0,
-                      width: 7.556396484375,
-                      height: 7.640625,
-                    }}
-                    paths={[
-                      {
-                        d: "M6.29698 0L1.25935 0C0.563871 0 0 0.563871 0 1.25943L0 6.38105C0 7.07661 0.563787 7.64048 1.25943 7.64048C1.95499 7.64048 2.51886 7.07661 2.51886 6.38105L2.51886 2.51886L6.29706 2.51886C6.99262 2.51886 7.55649 1.95499 7.55649 1.25943C7.55641 0.563871 6.99254 0 6.29698 0Z",
-                        fill: "rgba(247,140,182,1)",
-                        fillRule: "nonzero",
-                      },
-                    ]}
-                    position="absolute"
-                    top="0%"
-                    bottom="0%"
-                    left="0%"
-                    right="0%"
-                    {...getOverrideProps(overrides, "Vector31763483")}
-                  ></Icon>
-                </View>
-              </View>
-              <View
-                padding="0px 0px 0px 0px"
-                position="absolute"
-                top="0%"
-                bottom="82.23%"
-                left="82.41%"
-                right="0.01%"
-                {...getOverrideProps(overrides, "Group31763484")}
-              >
-                <View
-                  padding="0px 0px 0px 0px"
-                  position="absolute"
-                  top="0%"
-                  bottom="0%"
-                  left="0%"
-                  right="0%"
-                  {...getOverrideProps(overrides, "Group31763485")}
-                >
-                  <Icon
-                    width="7.556396484375px"
-                    height="7.640625px"
-                    viewBox={{
-                      minX: 0,
-                      minY: 0,
-                      width: 7.556396484375,
-                      height: 7.640625,
-                    }}
-                    paths={[
-                      {
-                        d: "M6.29707 0L1.25943 0C0.563871 0 0 0.563871 0 1.25943C0 1.95499 0.563787 2.51886 1.25943 2.51886L5.03764 2.51886L5.03764 6.38105C5.03764 7.07661 5.60151 7.64048 6.29707 7.64048C6.99262 7.64048 7.5565 7.07661 7.5565 6.38105L7.5565 1.25943C7.5565 0.563871 6.99262 0 6.29707 0Z",
-                        fill: "rgba(247,140,182,1)",
-                        fillRule: "nonzero",
-                      },
-                    ]}
-                    position="absolute"
-                    top="0%"
-                    bottom="0%"
-                    left="0%"
-                    right="0%"
-                    {...getOverrideProps(overrides, "Vector31763486")}
-                  ></Icon>
-                </View>
-              </View>
-              <View
-                padding="0px 0px 0px 0px"
-                position="absolute"
-                top="82.2%"
-                bottom="0.03%"
-                left="0.01%"
-                right="82.41%"
-                {...getOverrideProps(overrides, "Group31763487")}
-              >
-                <View
-                  padding="0px 0px 0px 0px"
-                  position="absolute"
-                  top="0%"
-                  bottom="0%"
-                  left="0%"
-                  right="0%"
-                  {...getOverrideProps(overrides, "Group31763488")}
-                >
-                  <Icon
-                    width="7.556396484375px"
-                    height="7.640625px"
-                    viewBox={{
-                      minX: 0,
-                      minY: 0,
-                      width: 7.556396484375,
-                      height: 7.640625,
-                    }}
-                    paths={[
-                      {
-                        d: "M6.29706 5.12162L2.51886 5.12162L2.51886 1.25943C2.51886 0.563871 1.95499 0 1.25943 0C0.563871 0 0 0.563871 0 1.25943L0 6.38105C0 7.07661 0.563787 7.64048 1.25943 7.64048L6.29706 7.64048C6.99262 7.64048 7.55649 7.07661 7.55649 6.38105C7.55649 5.68549 6.99262 5.12162 6.29706 5.12162Z",
-                        fill: "rgba(247,140,182,1)",
-                        fillRule: "nonzero",
-                      },
-                    ]}
-                    position="absolute"
-                    top="0%"
-                    bottom="0%"
-                    left="0%"
-                    right="0%"
-                    {...getOverrideProps(overrides, "Vector31763489")}
-                  ></Icon>
-                </View>
-              </View>
-              <View
-                padding="0px 0px 0px 0px"
-                position="absolute"
-                top="82.2%"
-                bottom="0.03%"
-                left="82.41%"
-                right="0.01%"
-                {...getOverrideProps(overrides, "Group31763490")}
-              >
-                <View
-                  padding="0px 0px 0px 0px"
-                  position="absolute"
-                  top="0%"
-                  bottom="0%"
-                  left="0%"
-                  right="0%"
-                  {...getOverrideProps(overrides, "Group31763491")}
-                >
-                  <Icon
-                    width="7.556396484375px"
-                    height="7.640625px"
-                    viewBox={{
-                      minX: 0,
-                      minY: 0,
-                      width: 7.556396484375,
-                      height: 7.640625,
-                    }}
-                    paths={[
-                      {
-                        d: "M6.29707 0C5.60151 0 5.03764 0.563871 5.03764 1.25943L5.03764 5.12162L1.25943 5.12162C0.563871 5.12162 0 5.68549 0 6.38105C0 7.07661 0.563871 7.64048 1.25943 7.64048L6.29707 7.64048C6.99262 7.64048 7.5565 7.07661 7.5565 6.38105L7.5565 1.25943C7.5565 0.563871 6.99262 0 6.29707 0Z",
-                        fill: "rgba(247,140,182,1)",
-                        fillRule: "nonzero",
-                      },
-                    ]}
-                    position="absolute"
-                    top="0%"
-                    bottom="0%"
-                    left="0%"
-                    right="0%"
-                    {...getOverrideProps(overrides, "Vector31763492")}
-                  ></Icon>
-                </View>
-              </View>
-              <View
-                padding="0px 0px 0px 0px"
-                position="absolute"
-                top="0%"
-                bottom="0%"
-                left="6.26%"
-                right="6.28%"
-                {...getOverrideProps(overrides, "Group31763493")}
-              >
-                <View
-                  padding="0px 0px 0px 0px"
-                  position="absolute"
-                  top="0%"
-                  bottom="0%"
-                  left="0%"
-                  right="0%"
-                  {...getOverrideProps(overrides, "Group31763494")}
-                >
-                  <Icon
-                    width="37.607177734375px"
-                    height="43px"
-                    viewBox={{
-                      minX: 0,
-                      minY: 0,
-                      width: 37.607177734375,
-                      height: 43,
-                    }}
-                    paths={[
-                      {
-                        d: "M36.9789 10.332L19.4385 0.16969C19.0481 -0.0565635 18.5663 -0.0565635 18.1758 0.16969L0.628287 10.3319C0.241455 10.556 0 10.9734 0 11.4208C0 11.4233 0.000252135 11.4259 0.000252135 11.4283L0.000252135 31.5782C0.000252135 32.0299 0.245738 32.4527 0.641053 32.6753L18.1759 42.8303C18.3648 42.9397 18.5895 43 18.8073 43C19.0346 43 19.2568 42.9356 19.4387 42.8303L36.9664 32.6752C36.9693 32.6735 36.9722 32.6718 36.9751 32.6701C37.3814 32.377 37.6003 32.1307 37.6064 31.5934C37.6065 31.5883 37.607 31.5834 37.607 31.5783L37.607 11.4285C37.607 11.4259 37.6072 11.4234 37.6072 11.421C37.6072 10.9731 37.3656 10.5557 36.9789 10.332ZM17.5478 39.5554L3.78896 31.5839L14.3961 25.501C14.9995 25.155 15.2081 24.3853 14.862 23.782C14.5161 23.1786 13.7465 22.97 13.1431 23.316L2.51886 29.4042L2.51886 13.5978L17.5478 22.2289L17.5478 39.5554L17.5478 39.5554ZM18.8072 20.0475L3.78711 11.4172L18.8072 2.71492L33.8273 11.4172L18.8072 20.0475ZM35.0963 29.4042L24.4714 23.316C23.868 22.97 23.0984 23.1785 22.7524 23.7819C22.4063 24.3853 22.6149 25.1549 23.2183 25.5009L33.8255 31.5837L20.0666 39.5553L20.0666 22.2289L35.0962 13.5978L35.0962 29.4042L35.0963 29.4042Z",
-                        fill: "rgba(247,140,182,1)",
-                        fillRule: "nonzero",
-                      },
-                    ]}
-                    position="absolute"
-                    top="0%"
-                    bottom="0%"
-                    left="0%"
-                    right="0%"
-                    {...getOverrideProps(overrides, "Vector31763495")}
-                  ></Icon>
-                </View>
-              </View>
-            </View>
             <Text
               fontFamily="Inter"
               fontSize="16px"
@@ -1244,7 +999,7 @@ export default function AncalaLandingPage1(props) {
             {...getOverrideProps(overrides, "Rectangle 131763503")}
           ></View>
           <Text
-            fontFamily="Circular Std"
+            fontFamily="Inter"
             fontSize="20px"
             fontWeight="500"
             color="rgba(255,255,255,1)"
@@ -1402,7 +1157,7 @@ export default function AncalaLandingPage1(props) {
             {...getOverrideProps(overrides, "Rectangle 131763733")}
           ></View>
           <Text
-            fontFamily="Circular Std"
+            fontFamily="Inter"
             fontSize="20px"
             fontWeight="500"
             color="rgba(255,255,255,1)"
@@ -1573,11 +1328,11 @@ export default function AncalaLandingPage1(props) {
             left="9px"
             padding="0px 0px 0px 0px"
             whiteSpace="pre-wrap"
-            children="Bridget M."
-            {...getOverrideProps(overrides, "Bridget M.")}
+            children="Sarah M."
+            {...getOverrideProps(overrides, "Sarah M.")}
           ></Text>
           <Text
-            fontFamily="Proxima Nova"
+            fontFamily="Inter"
             fontSize="16px"
             fontWeight="400"
             color="rgba(171,171,171,1)"
@@ -1591,11 +1346,11 @@ export default function AncalaLandingPage1(props) {
             left="9px"
             padding="0px 0px 0px 0px"
             whiteSpace="pre-wrap"
-            children="North California,USA"
-            {...getOverrideProps(overrides, "North California,USA")}
+            children="North California, USA"
+            {...getOverrideProps(overrides, "North California, USA")}
           ></Text>
           <Text
-            fontFamily="Circular Std"
+            fontFamily="Inter"
             fontSize="28px"
             fontWeight="500"
             color="rgba(247,140,182,1)"
@@ -1753,7 +1508,7 @@ export default function AncalaLandingPage1(props) {
         width="1040px"
         height="297px"
         position="absolute"
-        top="3891px"
+        top="3699px"
         left="33px"
         {...getOverrideProps(overrides, "Subscriptions")}
       >
@@ -1776,7 +1531,7 @@ export default function AncalaLandingPage1(props) {
           {...getOverrideProps(overrides, "Subscribe To Our Blog")}
         ></Text>
         <Text
-          fontFamily="Proxima Nova"
+          fontFamily="Inter"
           fontSize="20px"
           fontWeight="400"
           color="rgba(145,146,153,1)"
@@ -1819,7 +1574,7 @@ export default function AncalaLandingPage1(props) {
             {...getOverrideProps(overrides, "Rectangle 831763868")}
           ></View>
           <Text
-            fontFamily="Proxima Nova"
+            fontFamily="Inter"
             fontSize="20px"
             fontWeight="400"
             color="rgba(210,210,210,1)"
@@ -1830,7 +1585,7 @@ export default function AncalaLandingPage1(props) {
             justifyContent="flex-start"
             position="absolute"
             top="28px"
-            left="60px"
+            left="52px"
             padding="0px 0px 0px 0px"
             whiteSpace="pre-wrap"
             children="Type Your Email Address"
@@ -1901,9 +1656,9 @@ export default function AncalaLandingPage1(props) {
               {...getOverrideProps(overrides, "Rectangle 131763874")}
             ></View>
             <Text
-              fontFamily="Circular Std"
+              fontFamily="Inter"
               fontSize="20px"
-              fontWeight="400"
+              fontWeight="100"
               color="rgba(255,255,255,1)"
               lineHeight="30px"
               textAlign="left"
@@ -3675,7 +3430,7 @@ export default function AncalaLandingPage1(props) {
             {...getOverrideProps(overrides, "P.O. Box 123")}
           ></Text>
           <Text
-            fontFamily="Proxima Nova"
+            fontFamily="Inter"
             fontSize="20px"
             fontWeight="700"
             color="rgba(145,146,153,1)"
@@ -3709,7 +3464,7 @@ export default function AncalaLandingPage1(props) {
               position="absolute"
               top="0px"
               left="0px"
-              {...getOverrideProps(overrides, "Group 2731763960")}
+              {...getOverrideProps(overrides, "Group 27")}
             >
               <Icon
                 width="41px"
@@ -4030,7 +3785,7 @@ export default function AncalaLandingPage1(props) {
         </View>
         <View
           padding="0px 0px 0px 0px"
-          width="108px"
+          width="116px"
           height="272px"
           position="absolute"
           top="70px"
@@ -4038,7 +3793,7 @@ export default function AncalaLandingPage1(props) {
           {...getOverrideProps(overrides, "Resources")}
         >
           <Text
-            fontFamily="Circular Std"
+            fontFamily="Inter"
             fontSize="24px"
             fontWeight="500"
             color="rgba(86,89,122,1)"
@@ -4057,7 +3812,7 @@ export default function AncalaLandingPage1(props) {
             {...getOverrideProps(overrides, "Resouces")}
           ></Text>
           <Text
-            fontFamily="Proxima Nova"
+            fontFamily="Inter"
             fontSize="20px"
             fontWeight="400"
             color="rgba(145,146,153,1)"
@@ -4076,7 +3831,7 @@ export default function AncalaLandingPage1(props) {
             {...getOverrideProps(overrides, "Revisions")}
           ></Text>
           <Text
-            fontFamily="Proxima Nova"
+            fontFamily="Inter"
             fontSize="20px"
             fontWeight="400"
             color="rgba(145,146,153,1)"
@@ -4095,7 +3850,7 @@ export default function AncalaLandingPage1(props) {
             {...getOverrideProps(overrides, "Sheets")}
           ></Text>
           <Text
-            fontFamily="Proxima Nova"
+            fontFamily="Inter"
             fontSize="20px"
             fontWeight="400"
             color="rgba(145,146,153,1)"
@@ -4114,7 +3869,7 @@ export default function AncalaLandingPage1(props) {
             {...getOverrideProps(overrides, "Quiz")}
           ></Text>
           <Text
-            fontFamily="Proxima Nova"
+            fontFamily="Inter"
             fontSize="20px"
             fontWeight="400"
             color="rgba(145,146,153,1)"
@@ -4135,7 +3890,7 @@ export default function AncalaLandingPage1(props) {
         </View>
         <View
           padding="0px 0px 0px 0px"
-          width="98px"
+          width="107px"
           height="272px"
           position="absolute"
           top="70px"
@@ -4143,7 +3898,7 @@ export default function AncalaLandingPage1(props) {
           {...getOverrideProps(overrides, "About31763988")}
         >
           <Text
-            fontFamily="Circular Std"
+            fontFamily="Inter"
             fontSize="24px"
             fontWeight="500"
             color="rgba(86,89,122,1)"
@@ -4162,7 +3917,7 @@ export default function AncalaLandingPage1(props) {
             {...getOverrideProps(overrides, "About31763989")}
           ></Text>
           <Text
-            fontFamily="Proxima Nova"
+            fontFamily="Inter"
             fontSize="20px"
             fontWeight="400"
             color="rgba(145,146,153,1)"
@@ -4181,7 +3936,7 @@ export default function AncalaLandingPage1(props) {
             {...getOverrideProps(overrides, "About us")}
           ></Text>
           <Text
-            fontFamily="Proxima Nova"
+            fontFamily="Inter"
             fontSize="20px"
             fontWeight="400"
             color="rgba(145,146,153,1)"
@@ -4200,7 +3955,7 @@ export default function AncalaLandingPage1(props) {
             {...getOverrideProps(overrides, "Partners")}
           ></Text>
           <Text
-            fontFamily="Proxima Nova"
+            fontFamily="Inter"
             fontSize="20px"
             fontWeight="400"
             color="rgba(145,146,153,1)"
@@ -4219,7 +3974,7 @@ export default function AncalaLandingPage1(props) {
             {...getOverrideProps(overrides, "Contact us")}
           ></Text>
           <Text
-            fontFamily="Proxima Nova"
+            fontFamily="Inter"
             fontSize="20px"
             fontWeight="400"
             color="rgba(145,146,153,1)"
@@ -4240,7 +3995,7 @@ export default function AncalaLandingPage1(props) {
         </View>
         <View
           padding="0px 0px 0px 0px"
-          width="133px"
+          width="135px"
           height="272px"
           position="absolute"
           top="70px"
@@ -4248,7 +4003,7 @@ export default function AncalaLandingPage1(props) {
           {...getOverrideProps(overrides, "Helpful link31763994")}
         >
           <Text
-            fontFamily="Circular Std"
+            fontFamily="Inter"
             fontSize="24px"
             fontWeight="500"
             color="rgba(86,89,122,1)"
@@ -4286,7 +4041,7 @@ export default function AncalaLandingPage1(props) {
             {...getOverrideProps(overrides, "Ancala")}
           ></Text>
           <Text
-            fontFamily="Proxima Nova"
+            fontFamily="Inter"
             fontSize="20px"
             fontWeight="400"
             color="rgba(145,146,153,1)"
@@ -4305,7 +4060,7 @@ export default function AncalaLandingPage1(props) {
             {...getOverrideProps(overrides, "Solutions")}
           ></Text>
           <Text
-            fontFamily="Proxima Nova"
+            fontFamily="Inter"
             fontSize="20px"
             fontWeight="400"
             color="rgba(145,146,153,1)"
@@ -4324,7 +4079,7 @@ export default function AncalaLandingPage1(props) {
             {...getOverrideProps(overrides, "Industries")}
           ></Text>
           <Text
-            fontFamily="Proxima Nova"
+            fontFamily="Inter"
             fontSize="20px"
             fontWeight="400"
             color="rgba(145,146,153,1)"
@@ -4346,8 +4101,8 @@ export default function AncalaLandingPage1(props) {
       </View>
       <View
         padding="0px 0px 0px 0px"
-        width="1892.09px"
-        height="3630.19px"
+        width="1884.09px"
+        height="3456.19px"
         position="absolute"
         top="628.13px"
         left="-219px"
@@ -4509,7 +4264,7 @@ export default function AncalaLandingPage1(props) {
             viewBox={{
               minX: 0,
               minY: 0,
-              width: 353.408935546875,
+              width: 353.4090576171875,
               height: 356.8134765625,
             }}
             paths={[
@@ -4533,8 +4288,8 @@ export default function AncalaLandingPage1(props) {
           width="328.98px"
           height="345.25px"
           position="absolute"
-          top="3630.19px"
-          left="1766.41px"
+          top="3456.19px"
+          left="1758.41px"
           transformOrigin="top left"
           transform="rotate(-158.65deg)"
           {...getOverrideProps(overrides, "Bloobs31764010")}
@@ -4590,7 +4345,7 @@ export default function AncalaLandingPage1(props) {
       </View>
       <View
         padding="0px 0px 0px 0px"
-        width="256px"
+        width="293px"
         height="30px"
         position="absolute"
         top="4754px"
@@ -4598,9 +4353,9 @@ export default function AncalaLandingPage1(props) {
         {...getOverrideProps(overrides, "Copyrights")}
       >
         <Text
-          fontFamily="Circular Std"
+          fontFamily="Inter"
           fontSize="14px"
-          fontWeight="400"
+          fontWeight="100"
           color="rgba(255,255,255,1)"
           lineHeight="30px"
           textAlign="left"
@@ -4614,7 +4369,10 @@ export default function AncalaLandingPage1(props) {
           padding="0px 0px 0px 0px"
           whiteSpace="pre-wrap"
           children="Ancala Health 2022"
-          {...getOverrideProps(overrides, "All Rights Reserved By Mirage 2020")}
+          {...getOverrideProps(
+            overrides,
+            "2022 Ancala Health. All Rights Reserved."
+          )}
         ></Text>
         <View
           width="16px"
@@ -4656,9 +4414,9 @@ export default function AncalaLandingPage1(props) {
         {...getOverrideProps(overrides, "Language")}
       >
         <Text
-          fontFamily="Circular Std"
+          fontFamily="Inter"
           fontSize="14px"
-          fontWeight="400"
+          fontWeight="100"
           color="rgba(255,255,255,1)"
           lineHeight="24px"
           textAlign="left"
@@ -4784,15 +4542,6 @@ export default function AncalaLandingPage1(props) {
         backgroundColor="rgba(254,221,232,1)"
         {...getOverrideProps(overrides, "Rectangle 116731764029")}
       ></View>
-      <Image
-        width="491px"
-        height="606px"
-        position="absolute"
-        top="183px"
-        left="910px"
-        padding="0px 0px 0px 0px"
-        {...getOverrideProps(overrides, "image 2")}
-      ></Image>
       <View
         width="389px"
         height="410px"
@@ -4824,67 +4573,6 @@ export default function AncalaLandingPage1(props) {
         children="Ancala Health"
         {...getOverrideProps(overrides, "Ancala Health31792704")}
       ></Text>
-      <Icon
-        width="325px"
-        height="328px"
-        viewBox={{ minX: 0, minY: 0, width: 325, height: 328 }}
-        paths={[
-          {
-            d: "M162 328C37.8735 309.796 0 259.595 0 167.538C0 75.0094 72.9652 0 162.972 0C252.98 0 325 85.2073 325 177.736C325 269.329 263.438 318.535 166.888 328L162 328Z",
-            fillRule: "evenodd",
-          },
-        ]}
-        position="absolute"
-        top="3097px"
-        left="229px"
-        {...getOverrideProps(overrides, "Intersect")}
-      >
-        <View
-          padding="0px 0px 0px 0px"
-          width="325px"
-          height="328.28px"
-          position="absolute"
-          top="0px"
-          left="0px"
-          {...getOverrideProps(overrides, "Mask group")}
-        >
-          <View
-            padding="0px 0px 0px 0px"
-            width="325px"
-            height="328.28px"
-            position="absolute"
-            top="0px"
-            left="0px"
-            {...getOverrideProps(overrides, "Group 2731812690")}
-          >
-            <Icon
-              width="325px"
-              height="328.28px"
-              viewBox={{ minX: 0, minY: 0, width: 325, height: 328.27734375 }}
-              paths={[
-                {
-                  d: "M325 177.736C325 270.265 262.173 319.537 163.917 328.278C38.2631 310.31 0 260.067 0 167.538C0 75.0095 72.9652 0.000115624 162.972 0.000115624C252.98 0.000115624 325 85.2075 325 177.736Z",
-                  fill: "rgba(255,255,255,1)",
-                  fillRule: "nonzero",
-                },
-              ]}
-              position="absolute"
-              top="0px"
-              left="0px"
-              {...getOverrideProps(overrides, "Ellipse 1")}
-            ></Icon>
-          </View>
-        </View>
-        <Image
-          width="336.96px"
-          height="332.33px"
-          position="absolute"
-          top="-4.33px"
-          left="0px"
-          padding="0px 0px 0px 0px"
-          {...getOverrideProps(overrides, "image 4")}
-        ></Image>
-      </Icon>
       <View
         width="486px"
         height="399px"
@@ -4896,13 +4584,76 @@ export default function AncalaLandingPage1(props) {
         {...getOverrideProps(overrides, "Rectangle 116731812711")}
       ></View>
       <Image
-        width="500px"
-        height="400px"
+        width="497px"
+        height="633px"
         position="absolute"
-        top="2328px"
-        left="744px"
+        top="236px"
+        left="915px"
         padding="0px 0px 0px 0px"
-        {...getOverrideProps(overrides, "image 5")}
+        {...getOverrideProps(
+          overrides,
+          "jonathan-borba-n1B6ftPB5Eg-unsplash 1"
+        )}
+      ></Image>
+      <Image
+        width="491px"
+        height="392px"
+        position="absolute"
+        top="2389px"
+        left="835px"
+        padding="0px 0px 0px 0px"
+        {...getOverrideProps(
+          overrides,
+          "national-cancer-institute-SMxzEaidR20-unsplash 1"
+        )}
+      ></Image>
+      <Image
+        width="415px"
+        height="462px"
+        position="absolute"
+        top="1610px"
+        left="138px"
+        padding="0px 0px 0px 0px"
+        {...getOverrideProps(overrides, "Screen Shot 2022-07-11 at 11.26 1")}
+      ></Image>
+      <View
+        width="48px"
+        height="48px"
+        position="absolute"
+        top="1105px"
+        left="246px"
+        overflow="hidden"
+        padding="0px 0px 0px 0px"
+        {...getOverrideProps(overrides, "Create")}
+      ></View>
+      <View
+        width="48px"
+        height="48px"
+        position="absolute"
+        top="1105px"
+        left="546px"
+        overflow="hidden"
+        padding="0px 0px 0px 0px"
+        {...getOverrideProps(overrides, "Search")}
+      ></View>
+      <View
+        width="48px"
+        height="48px"
+        position="absolute"
+        top="1104px"
+        left="1146px"
+        overflow="hidden"
+        padding="0px 0px 0px 0px"
+        {...getOverrideProps(overrides, "Eye Visible")}
+      ></View>
+      <Image
+        width="331px"
+        height="367px"
+        position="absolute"
+        top="3078px"
+        left="228px"
+        padding="0px 0px 0px 0px"
+        {...getOverrideProps(overrides, "artem 1")}
       ></Image>
     </View>
   );
