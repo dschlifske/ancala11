@@ -6,7 +6,9 @@ import {
   NavBar,
   HeroLayout1,
   Features2x2,
-  MarketingFooter 
+  HeroLayout4,
+  MarketingFooter,
+  AncalaLandingPage1 
 } from './ui-components';
 
 function App() {
@@ -14,17 +16,10 @@ function App() {
     <div className="App">
       <header className="App-header">
             <BrowserView>
-              <h1>This is rendered only in browser</h1>
-              <NavBar />
-              <p />
-              <HeroLayout1 />
-              <p />
-              <Features2x2 />
-              <p />
-              <MarketingFooter />
+              <AncalaLandingPage1 />
             </BrowserView>
             <MobileView>
-              <h1>This is rendered only on mobile</h1>
+              <h1>No Mobile view yet</h1>
             </MobileView>
       </header>
     </div>
