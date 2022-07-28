@@ -7,8 +7,8 @@
 /* eslint-disable */
 import React from "react";
 import { getOverrideProps } from "@aws-amplify/ui-react/internal";
-import { Button, Flex, Icon, Image, Text } from "@aws-amplify/ui-react";
-export default function NavBar(props) {
+import { Button, Flex, Icon, Text, View } from "@aws-amplify/ui-react";
+export default function SampleNavBar(props) {
   const { overrides, ...rest } = props;
   return (
     <Flex
@@ -21,13 +21,34 @@ export default function NavBar(props) {
       padding="24px 32px 24px 32px"
       backgroundColor="rgba(255,255,255,1)"
       {...rest}
-      {...getOverrideProps(overrides, "NavBar")}
+      {...getOverrideProps(overrides, "SampleNavBar")}
     >
+      <View
+        width="59px"
+        height="45px"
+        shrink="0"
+        position="relative"
+        padding="0px 0px 0px 0px"
+        backgroundColor="rgba(217,217,217,1)"
+        {...getOverrideProps(overrides, "Rectangle 1170")}
+      ></View>
+      <Flex
+        gap="32px"
+        direction="row"
+        width="503px"
+        justifyContent="flex-end"
+        alignItems="center"
+        grow="1"
+        basis="503px"
+        height="42px"
+        position="relative"
+        padding="0px 0px 0px 0px"
+        {...getOverrideProps(overrides, "Frame 321")}
+      ></Flex>
       <Flex
         gap="2px"
         direction="row"
         width="fit-content"
-        height="46px"
         justifyContent="center"
         alignItems="center"
         shrink="0"
@@ -70,29 +91,25 @@ export default function NavBar(props) {
           {...getOverrideProps(overrides, "Ancala Health")}
         ></Text>
       </Flex>
-      <Flex
-        gap="32px"
-        direction="row"
-        width="1017px"
-        justifyContent="flex-end"
-        alignItems="center"
-        grow="1"
-        basis="1017px"
-        height="45px"
+      <Text
+        fontFamily="Inter"
+        fontSize="20px"
+        fontWeight="400"
+        color="rgba(0,0,0,1)"
+        lineHeight="23.4375px"
+        textAlign="right"
+        display="flex"
+        direction="column"
+        justifyContent="flex-start"
+        width="415px"
+        height="24px"
+        shrink="0"
         position="relative"
         padding="0px 0px 0px 0px"
-        {...getOverrideProps(overrides, "Frame 321")}
-      >
-        <Image
-          width="45px"
-          height="45px"
-          shrink="0"
-          position="relative"
-          borderRadius="160px"
-          padding="0px 0px 0px 0px"
-          {...getOverrideProps(overrides, "image")}
-        ></Image>
-      </Flex>
+        whiteSpace="pre-wrap"
+        children="Name"
+        {...getOverrideProps(overrides, "Name")}
+      ></Text>
       <Button
         display="flex"
         gap="0"

@@ -41,7 +41,7 @@ export default function ReviewCard(props) {
       <Flex
         gap="24px"
         direction="column"
-        height="351px"
+        width="560px"
         grow="1"
         basis="560px"
         alignSelf="stretch"

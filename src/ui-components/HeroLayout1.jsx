@@ -75,7 +75,7 @@ export default function HeroLayout1(props) {
       <Flex
         gap="10px"
         direction="column"
-        height="500px"
+        width="720px"
         justifyContent="center"
         alignItems="center"
         grow="1"
@@ -199,7 +199,7 @@ export default function HeroLayout1(props) {
       <Flex
         gap="10px"
         direction="column"
-        height="500px"
+        width="720px"
         justifyContent="center"
         alignItems="center"
         grow="1"

@@ -368,139 +368,6 @@ export default function AncalaLandingPage1(props) {
             ></Text>
           </Flex>
         </Flex>
-        <View
-          padding="0px 0px 0px 0px"
-          width="560px"
-          height="30px"
-          position="absolute"
-          top="205px"
-          left="623px"
-          {...getOverrideProps(overrides, "Nav Bar")}
-        >
-          <Text
-            fontFamily="Inter"
-            fontSize="20px"
-            fontWeight="500"
-            color="rgba(86,89,122,1)"
-            lineHeight="30px"
-            textAlign="left"
-            display="flex"
-            direction="column"
-            justifyContent="flex-start"
-            position="absolute"
-            top="0px"
-            left="0px"
-            padding="0px 0px 0px 0px"
-            whiteSpace="pre-wrap"
-            children="Home"
-            {...getOverrideProps(overrides, "Home")}
-          ></Text>
-          <Text
-            fontFamily="Inter"
-            fontSize="20px"
-            fontWeight="500"
-            color="rgba(170,170,171,1)"
-            lineHeight="30px"
-            textAlign="left"
-            display="flex"
-            direction="column"
-            justifyContent="flex-start"
-            position="absolute"
-            top="0px"
-            left="128px"
-            padding="0px 0px 0px 0px"
-            whiteSpace="pre-wrap"
-            children="About"
-            {...getOverrideProps(overrides, "About31763433")}
-          ></Text>
-          <Text
-            fontFamily="Inter"
-            fontSize="20px"
-            fontWeight="500"
-            color="rgba(170,170,171,1)"
-            lineHeight="30px"
-            textAlign="left"
-            display="flex"
-            direction="column"
-            justifyContent="flex-start"
-            position="absolute"
-            top="0px"
-            left="257px"
-            padding="0px 0px 0px 0px"
-            whiteSpace="pre-wrap"
-            children="Product"
-            {...getOverrideProps(overrides, "Product")}
-          ></Text>
-          <Text
-            fontFamily="Inter"
-            fontSize="20px"
-            fontWeight="500"
-            color="rgba(170,170,171,1)"
-            lineHeight="30px"
-            textAlign="left"
-            display="flex"
-            direction="column"
-            justifyContent="flex-start"
-            position="absolute"
-            top="0px"
-            left="401px"
-            padding="0px 0px 0px 0px"
-            whiteSpace="pre-wrap"
-            children="Pricing"
-            {...getOverrideProps(overrides, "Pricing")}
-          ></Text>
-          <View
-            padding="0px 0px 0px 0px"
-            width="24px"
-            height="24px"
-            position="absolute"
-            top="3px"
-            left="536px"
-            {...getOverrideProps(overrides, "Menu")}
-          >
-            <View
-              width="24px"
-              height="24px"
-              position="absolute"
-              top="0px"
-              left="0px"
-              overflow="hidden"
-              padding="0px 0px 0px 0px"
-              {...getOverrideProps(overrides, "heroicons-outline:menu")}
-            >
-              <View
-                padding="0px 0px 0px 0px"
-                position="absolute"
-                top="25%"
-                bottom="25%"
-                left="16.67%"
-                right="16.67%"
-                {...getOverrideProps(overrides, "Group31763438")}
-              >
-                <Icon
-                  width="16px"
-                  height="12px"
-                  viewBox={{ minX: 0, minY: 0, width: 16, height: 12 }}
-                  paths={[
-                    {
-                      d: "M0 -1C-0.552285 -1 -1 -0.552285 -1 0C-1 0.552285 -0.552285 1 0 1L0 -1ZM16 1C16.5523 1 17 0.552285 17 0C17 -0.552285 16.5523 -1 16 -1L16 1ZM0 5C-0.552285 5 -1 5.44772 -1 6C-1 6.55228 -0.552285 7 0 7L0 5ZM16 7C16.5523 7 17 6.55228 17 6C17 5.44772 16.5523 5 16 5L16 7ZM0 11C-0.552285 11 -1 11.4477 -1 12C-1 12.5523 -0.552285 13 0 13L0 11ZM16 13C16.5523 13 17 12.5523 17 12C17 11.4477 16.5523 11 16 11L16 13ZM0 1L16 1L16 -1L0 -1L0 1ZM16 -1L0 -1L0 1L16 1L16 -1ZM0 7L16 7L16 5L0 5L0 7ZM16 5L0 5L0 7L16 7L16 5ZM0 13L16 13L16 11L0 11L0 13Z",
-                      stroke: "rgba(170,170,171,1)",
-                      fillRule: "nonzero",
-                      strokeLinejoin: "round",
-                      strokeWidth: 2,
-                    },
-                  ]}
-                  position="absolute"
-                  top="0%"
-                  bottom="0%"
-                  left="0%"
-                  right="0%"
-                  {...getOverrideProps(overrides, "Vector31763439")}
-                ></Icon>
-              </View>
-            </View>
-          </View>
-        </View>
       </View>
       <View
         padding="0px 0px 0px 0px"
@@ -4511,27 +4378,6 @@ export default function AncalaLandingPage1(props) {
           </View>
         </View>
       </View>
-      <Text
-        fontFamily="Inter"
-        fontSize="36px"
-        fontWeight="900"
-        color="rgba(86,89,122,1)"
-        lineHeight="42.1875px"
-        textAlign="left"
-        display="flex"
-        direction="column"
-        justifyContent="center"
-        letterSpacing="0.21px"
-        width="299px"
-        height="93px"
-        position="absolute"
-        top="31px"
-        left="93px"
-        padding="0px 0px 0px 0px"
-        whiteSpace="pre-wrap"
-        children="Ancala Health"
-        {...getOverrideProps(overrides, "Ancala Health31764026")}
-      ></Text>
       <View
         width="502px"
         height="606px"
@@ -4571,7 +4417,7 @@ export default function AncalaLandingPage1(props) {
         padding="0px 0px 0px 0px"
         whiteSpace="pre-wrap"
         children="Ancala Health"
-        {...getOverrideProps(overrides, "Ancala Health31792704")}
+        {...getOverrideProps(overrides, "Ancala Health")}
       ></Text>
       <View
         width="486px"
@@ -4584,8 +4430,8 @@ export default function AncalaLandingPage1(props) {
         {...getOverrideProps(overrides, "Rectangle 116731812711")}
       ></View>
       <Image
-        width="497px"
-        height="633px"
+        width="464px"
+        height="619px"
         position="absolute"
         top="236px"
         left="915px"

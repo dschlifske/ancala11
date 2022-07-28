@@ -33,7 +33,6 @@ export default function ProductCard(props) {
     >
       <Image
         width="320px"
-        height="366px"
         shrink="0"
         alignSelf="stretch"
         position="relative"

@@ -26,7 +26,7 @@ export default function SideBar(props) {
       <Flex
         gap="32px"
         direction="column"
-        height="698px"
+        width="385px"
         grow="1"
         basis="385px"
         alignSelf="stretch"
